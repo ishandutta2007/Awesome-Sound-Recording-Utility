@@ -53,9 +53,9 @@ Below is a comparison of top commercial sound recording and audio workstation so
 
 Audio recording and editing is one of the strongest open-source software ecosystems. Projects like **FFmpeg**, **Audacity**, **MuseScore**, and **Ardour** power millions of creators, audio engineers, and developers worldwide.
 
-The projects below are sorted by their GitHub star count in descending order.
+The projects below are sorted by their GitHub Stars_Count in descending order.
 
-| 📦 Project | 🏷️ Star Badge (Stargazers Link) | 📜 License | 🎯 Category & Primary Features |
+| 📦 Project | 🏷️ Stars_Badge (Stargazers Link) | 📜 License | 🎯 Category & Primary Features |
 | :--- | :--- | :--- | :--- |
 | **[OBS Studio](https://github.com/obsproject/obs-studio)** | [<img src="https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white" alt="OBS Studio Stars"/>](https://github.com/obsproject/obs-studio/stargazers) | GPL-2.0 | **Live Audio/Video Recording & Streaming**. Supports multi-track audio routing, noise suppression (RNNoise/Speex), and VST plugin filters. |
 | **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** | [<img src="https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white" alt="FFmpeg Stars"/>](https://github.com/FFmpeg/FFmpeg/stargazers) | LGPL/GPL | **The Swiss-Army Multimedia Framework**. Command-line audio capture, format conversion, filtering, streaming, and audio extraction pipeline. |
@@ -104,7 +104,7 @@ If you find this curated list of sound recording utilities helpful, please consi
 
 - This list is **community-curated** for informational and educational purposes.
 - Audio recording utilities handle potentially sensitive microphone and audio data. Always review privacy settings and telemetry options before deployment.
-- Pricing details, free trial terms, and star counts are regularly refreshed but may change over time according to software vendors.
+- Pricing details, free trial terms, and Stars_Counts are regularly refreshed but may change over time according to software vendors.
 
 ---
 
