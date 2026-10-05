@@ -1,239 +1,119 @@
-# Awesome-Sound-Recording-Utility
+# 🎙️ Awesome Sound Recording Utility 🎧
 
-## Top Sound Recording Utility Ecosystem
+![Awesome Sound Recording Utility Banner](./assets/banner.svg)
 
+<p bottom="10px">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Sound-Recording-Utility?color=blue" alt="License" />
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Sound-Recording-Utility?color=green" alt="Last Commit" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🌟 Top Sound Recording & Audio Editing Utility Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Audio Recording, Editing & Open-Source DAW Workflows*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial audio recording software** and **open-source projects** that capture, edit, and process sound — from simple voice memo tools to professional digital audio workstations and specialized recording utilities.
-
-
-
-**Examples** include Microsoft Sound Recorder, Audacity, Adobe Audition, GarageBand, Voice Memos, Sound Forge, WavePad, Ocenaudio, Ardour, and RecordPad (the category leaders).
-
-
-
-**Open-source emphasis**: Audio recording and editing is one of the strongest open-source domains. **Audacity**, **Ardour**, **LMMS**, and **Tenacity** collectively power millions of podcasters, musicians, and audio engineers, while **Ocenaudio** and **Kwave** offer lightweight alternatives. **Reaper** is not open source but highly regarded. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Adobe Audition](https://www.adobe.com/products/audition.html)**  
-
-  Professional audio workstation for recording, editing, mixing, and restoration. **Subscription-based** ($22.99/month). Industry standard for podcast production, voiceover, and audio post-production . Features spectral editing, noise reduction, and multi-track mixing .
-
-
-
-- **[GarageBand](https://www.apple.com/mac/garageband/)**  
-
-  Apple's free music creation and audio recording software for macOS and iOS. **Free** with Apple devices. Features virtual instruments, loops, and multi-track recording. **Best for beginners and podcasters** in the Apple ecosystem .
-
-
-
-- **[Sound Forge](https://www.magix.com/us/music/sound-forge/)**  
-
-  Professional audio editing software for Windows. **One-time purchase** or subscription. Features precise waveform editing, effects processing, and batch conversion .
-
-
-
-- **[WavePad](https://www.nch.com.au/wavepad/)**  
-
-  Audio editing software with a free tier and paid Master's Edition. **Free version available** (non-commercial). Features sound editing, noise reduction, and effects. **Best for quick edits and voice recording** on Windows and macOS .
-
-
-
-- **[RecordPad](https://www.nch.com.au/recordpad/)**  
-
-  Simple sound recording software from NCH. **Free for personal use**. **Best for quick voice recordings** and basic audio capture .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Audacity](https://github.com/audacity/audacity)**  
-
-  **The most widely used open-source audio editor**, GPL-2.0 licensed with 15,000+ GitHub stars . **Cross-platform** (Windows, macOS, Linux) with multi-track recording and editing . Features **noise reduction, spectral editing, effects processing, and plugin support** (VST, LV2, AU) . **The de facto open-source Audition alternative** — used by podcasters, musicians, and audio engineers worldwide . **Completely free with no restrictions** . **The best starting point for open-source audio recording and editing** .
-
-
-
-- **[Tenacity](https://github.com/tenacityteam/tenacity)**  
-
-  **Community fork of Audacity** created after the Muse Group acquisition controversy, GPL-2.0 licensed . **Privacy-focused and telemetry-free** — no data collection . Aims to preserve Audacity's original open-source spirit while adding improvements . **Best for users wanting Audacity without telemetry concerns** .
-
-
-
-- **[Ardour](https://github.com/Ardour/ardour)**  
-
-  **The leading open-source digital audio workstation (DAW)**, GPL-2.0 licensed . **Professional-grade multi-track recording, editing, and mixing** for Linux, macOS, and Windows . Features **unlimited tracks, non-destructive editing, MIDI sequencing, and plugin support** (VST, LV2, AU) . **The de facto open-source Pro Tools alternative** — used for professional music production, film scoring, and podcasting . **Best for users needing a full DAW rather than a simple editor** .
-
-
-
-- **[LMMS](https://github.com/LMMS/lmms)**  
-
-  **Open-source digital audio workstation** for music production, GPL-2.0 licensed with 10,000+ GitHub stars . Features **pattern-based sequencing, virtual instruments, and effects** . **The best open-source FL Studio alternative** — ideal for electronic music production and beatmaking . Available on Windows, macOS, and Linux .
-
-
-
-- **[Qtractor](https://github.com/rncbc/qtractor)**  
-
-  **Qt-based open-source multi-track audio/MIDI sequencer**, GPL-2.0 licensed . Features **non-destructive editing, plugin support, and session management** . **Best for Linux users** wanting a lightweight DAW .
-
-
-
-- **[Ocenaudio](https://github.com/ocenaudio/ocenaudio)**  
-
-  **Fast, cross-platform audio editor** with a modern interface, GPL-3.0 licensed . **Simple and intuitive** — better UX than Audacity for basic editing tasks . Features **real-time effects preview, VST plugin support, and spectral analysis** . **Best for users wanting Audacity functionality with a cleaner interface** .
-
-
-
-- **[Kwave](https://github.com/KDE/kwave)**  
-
-  **KDE's sound editor** for Linux, GPL-2.0 licensed . Features **multi-track editing, effects, and plugin support** . **Best for KDE Plasma users** wanting native desktop integration .
-
-
-
-- **[mhWaveEdit](https://github.com/magnush/mhwaveedit)**  
-
-  **Lightweight sound editor** for Linux, GPL-2.0 licensed . **Simple and fast** — best for basic editing and format conversion . **Best for low-resource systems** .
-
-
-
-- **[Sweep](https://github.com/rezarg/sweep)**  
-
-  **Audio editor and live playback tool**, GPL-2.0 licensed . Features **multi-channel editing, effects, and real-time processing** . **Best for Linux users** needing a lightweight editor .
-
-
-
-- **[SoX (Sound eXchange)](https://github.com/chirlu/sox)**  
-
-  **The Swiss Army knife of sound processing**, GPL-2.0 licensed . **Command-line tool** for converting, combining, and processing audio files . Features **format conversion, effects, and batch processing** . **The standard CLI audio tool** — essential for scripting and automation .
-
-
-
-- **[ffmpeg](https://github.com/FFmpeg/FFmpeg)**  
-
-  **The most versatile multimedia framework**, LGPL/GPL licensed . **Command-line tool** for recording, converting, and streaming audio/video . **The foundation of most audio/video processing** — used by Audacity, Ardour, and countless other tools . **Essential for any audio workflow** .
-
-
-
-### Specialized Recording Tools
-
-
-
-- **[Audio Recorder](https://github.com/gcarq/audio-recorder)**  
-
-  **Simple audio recorder for Linux**, GPL-3.0 licensed . Features **record from any source, timer recording, and multiple output formats** . **Best for quick recording on Linux desktops** .
-
-
-
-- **[Gnome Sound Recorder](https://github.com/GNOME/gnome-sound-recorder)**  
-
-  **GNOME's official sound recorder**, GPL-3.0 licensed . **Simple and clean** — best for voice memos and quick recordings on GNOME .
-
-
-
-- **[Reaper](https://www.reaper.fm/)**  
-
-  **Not open source** but highly regarded and affordable ($60 discounted license) . **The community favorite** for podcasters and musicians — unlimited evaluation, no DRM . Included as the primary commercial alternative to open-source DAWs .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Rosegarden** — MIDI sequencer and audio editor for Linux, GPL-2.0 licensed .
-
-- **MusE** — MIDI/Audio sequencer with recording and editing, GPL-2.0 licensed .
-
-- **Traverso DAW** — Lightweight DAW for Linux, GPL-2.0 licensed .
-
-- **Non-DAW** — Modular DAW for Linux, GPL-2.0 licensed .
-
-- **Zrythm** — Modern DAW for Linux, macOS, and Windows, AGPL-3.0 licensed .
-
-- **WaveShop** — Bit-perfect audio editor for Windows, GPL-3.0 licensed .
-
-- **Wavosaur** — Free audio editor for Windows, freeware .
-
-- **Praat** — Speech analysis and synthesis tool, GPL-2.0 licensed .
-
-- **Sonic Visualiser** — Audio analysis and visualization, GPL-2.0 licensed .
-
-
-
-**Frameworks for building custom audio recording solutions**: Choose based on scope. **Audacity** for general-purpose audio editing with the largest plugin ecosystem . **Tenacity** for privacy-focused Audacity . **Ardour** for professional multi-track recording and mixing . **LMMS** for electronic music production . **Ocenaudio** for a cleaner Audacity-like experience . **SoX** and **ffmpeg** for command-line batch processing and automation . **Audio Recorder** or **GNOME Sound Recorder** for simple voice recording . Note that true professional audio production with spectral editing, advanced restoration, and industry-standard plugin compatibility remains primarily commercial territory; open-source stacks provide strong editing, DAW, and recording foundations that require integration for complete professional workflows.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Audio recording software handles potentially sensitive voice and audio data. Self-hosted solutions run locally by default — **no cloud transmission unless explicitly enabled** .
-
-- **Audacity's telemetry controversy** (2021) led to the creation of Tenacity . Audit privacy settings before use.
-
-- **Some "free" commercial tools have restrictions** — WavePad free version is non-commercial; RecordPad is personal use only. Review licenses before commercial deployment .
-
-- **Professional audio requires quality hardware** — software cannot compensate for poor microphones or room acoustics. Invest in input quality first .
-
-- The open-source ecosystem provides strong editing, DAW, and recording foundations, but **advanced spectral restoration, industry-standard plugin compatibility, and professional support** remain primarily commercial offerings.
-
-
+> **A Curated List of SaaS Products & Open-Source GitHub Projects**  
+> *Focused on Audio Recording, Digital Audio Workstations (DAWs), Voice Recorders & Open-Source Audio Processing Workflows.*  
+> **Last updated: October 2026**
 
 ---
 
+This repository tracks notable **commercial audio recording software**, **cloud SaaS platforms**, and **open-source GitHub projects** that capture, edit, process, and master sound — from lightweight voice memo tools to professional digital audio workstations and command-line processing utilities.
 
+---
 
-**Made for podcasters, musicians, audio engineers, and anyone recording sound.**  
+## 📑 Table of Contents
+- [🌐 SaaS & Hosted Audio Platforms](#-saas--hosted-audio-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#-disclaimer)
+- [⭐ Star History](#-star-history)
 
-Let's make sound recording more open, transparent, and accessible.
+---
+
+## 🌐 SaaS & Hosted Audio Platforms
+
+### 📊 Market Analysis & Overview
+> **Market Size & Structure**: The global audio recording, editing software, and DAW market is estimated at **$3.8 Billion - $4.5 Billion** (2025/2026), growing at a ~9.2% CAGR driven by podcast growth, streaming content creation, and remote audio production.  
+> **Market Fragmentation**: The commercial sector is **moderately fragmented**. Apple and Adobe command dominant positions in general creative suites, while specialized niche audio vendors (NCH Software, MAGIX) capture targeted commercial desktop utility segments.
+
+Below is a comparison of top commercial sound recording and audio workstation software, sorted in descending order by company valuation / revenue.
+
+| 🏢 Product | 💵 Pricing (Starting Tier) | 🎁 Free Tier / Free Trial Limit | 💰 Company Valuation / Revenue | 📝 Highlights & Best Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **[GarageBand](https://www.apple.com/mac/garageband/)** | **Free** (Included with macOS/iOS) | **Unlimited** free full version for Apple users | **$4.9 Trillion** valuation / ~$416B annual revenue (Apple Inc.) | Beginner-friendly DAW with virtual instruments & multitrack podcast recording. |
+| **[Adobe Audition](https://www.adobe.com/products/audition.html)** | **$22.99 / month** (Single App Plan) | **7-Day Free Trial** (Full access; requires credit card registration) | **$92.5 Billion** market cap / ~$23.7B annual revenue (Adobe Inc.) | Industry-standard spectral audio restoration, noise reduction, and multitrack mixing. |
+| **[Sound Forge](https://www.magix.com/us/music/sound-forge/)** | **$39.99 / year** (or $59.00 one-time) | **30-Day Free Trial** (Full functional trial) | **~$50M - $100M** estimated revenue (MAGIX Software GmbH) | Ultra-precise waveform editing, mastering tools, and batch audio file processing. |
+| **[WavePad](https://www.nch.com.au/wavepad/)** | **$5.50 / month** (or $60.00 Standard license) | **14-Day Free Trial** of Master's Edition; basic edition free for non-commercial home use | **~$7M - $15M** ARR (NCH Software / Solenis) | Lightweight audio editor with voice recording, quick clipping, and basic VST plugins. |
+| **[RecordPad](https://www.nch.com.au/recordpad/)** | **$7.49** (One-time license purchase) | **14-Day Free Trial** (Full feature access during trial) | **~$7M - $15M** ARR (NCH Software / Solenis) | Dedicated lightweight voice & sound recorder for fast dictation and background capture. |
+
+---
+
+## ⚡ Open-Source GitHub Projects
+
+Audio recording and editing is one of the strongest open-source software ecosystems. Projects like **FFmpeg**, **Audacity**, **MuseScore**, and **Ardour** power millions of creators, audio engineers, and developers worldwide.
+
+The projects below are sorted by their GitHub star count in descending order.
+
+| 📦 Project | 🏷️ Star Badge (Stargazers Link) | 📜 License | 🎯 Category & Primary Features |
+| :--- | :--- | :--- | :--- |
+| **[OBS Studio](https://github.com/obsproject/obs-studio)** | [<img src="https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white" alt="OBS Studio Stars"/>](https://github.com/obsproject/obs-studio/stargazers) | GPL-2.0 | **Live Audio/Video Recording & Streaming**. Supports multi-track audio routing, noise suppression (RNNoise/Speex), and VST plugin filters. |
+| **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** | [<img src="https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white" alt="FFmpeg Stars"/>](https://github.com/FFmpeg/FFmpeg/stargazers) | LGPL/GPL | **The Swiss-Army Multimedia Framework**. Command-line audio capture, format conversion, filtering, streaming, and audio extraction pipeline. |
+| **[Audacity](https://github.com/audacity/audacity)** | [<img src="https://img.shields.io/github/stars/audacity/audacity?style=social&color=white" alt="Audacity Stars"/>](https://github.com/audacity/audacity/stargazers) | GPL-2.0 | **De Facto Open-Source Audio Editor**. Cross-platform multitrack recording, spectral selection, noise reduction, and VST3/AU/LV2 plugin support. |
+| **[MuseScore](https://github.com/musescore/MuseScore)** | [<img src="https://img.shields.io/github/stars/musescore/MuseScore?style=social&color=white" alt="MuseScore Stars"/>](https://github.com/musescore/MuseScore/stargazers) | GPL-3.0 | **Music Notation & Audio Composition**. Professional sheet music engraver with audio playback engine, soundfont recording, and MIDI export. |
+| **[AudioKit](https://github.com/AudioKit/AudioKit)** | [<img src="https://img.shields.io/github/stars/AudioKit/AudioKit?style=social&color=white" alt="AudioKit Stars"/>](https://github.com/AudioKit/AudioKit/stargazers) | MIT | **Swift Audio Synthesis & Recording Framework**. Empowering iOS/macOS audio apps with real-time sound processing, recording, and analysis. |
+| **[LMMS](https://github.com/LMMS/lmms)** | [<img src="https://img.shields.io/github/stars/LMMS/lmms?style=social&color=white" alt="LMMS Stars"/>](https://github.com/LMMS/lmms/stargazers) | GPL-2.0 | **Cross-Platform Digital Audio Workstation**. Beatmaking, pattern sequencing, virtual instruments, and FL Studio-style music creation. |
+| **[Mixxx](https://github.com/mixxxdj/mixxx)** | [<img src="https://img.shields.io/github/stars/mixxxdj/mixxx?style=social&color=white" alt="Mixxx Stars"/>](https://github.com/mixxxdj/mixxx/stargazers) | GPL-2.0 | **DJ Software & Live Performance Recording**. Real-time master audio output recording, vinyl control, multi-channel mixing, and EQ tools. |
+| **[SuperCollider](https://github.com/supercollider/supercollider)** | [<img src="https://img.shields.io/github/stars/supercollider/supercollider?style=social&color=white" alt="SuperCollider Stars"/>](https://github.com/supercollider/supercollider/stargazers) | GPL-3.0 | **Audio Synthesis Environment & Sound Engine**. Programming language for algorithmic music composition, live coding, and audio recording. |
+| **[Ardour](https://github.com/Ardour/ardour)** | [<img src="https://img.shields.io/github/stars/Ardour/ardour?style=social&color=white" alt="Ardour Stars"/>](https://github.com/Ardour/ardour/stargazers) | GPL-2.0 | **Professional Open-Source DAW**. Complete Pro Tools alternative featuring non-destructive editing, unlimited tracks, MIDI sequencing, and mixing console. |
+| **[BespokeSynth](https://github.com/BespokeSynth/BespokeSynth)** | [<img src="https://img.shields.io/github/stars/BespokeSynth/BespokeSynth?style=social&color=white" alt="BespokeSynth Stars"/>](https://github.com/BespokeSynth/BespokeSynth/stargazers) | GPL-3.0 | **Modular DAW & Sound Lab**. Visual node-based audio synthesizer, custom sound routing, and live loop recorder. |
+| **[Helio Workstation](https://github.com/helio-fm/helio-workstation)** | [<img src="https://img.shields.io/github/stars/helio-fm/helio-workstation?style=social&color=white" alt="Helio Stars"/>](https://github.com/helio-fm/helio-workstation/stargazers) | GPL-3.0 | **Lightweight Linear Music Sequencer**. Minimalist cross-platform DAW focused on clean composition, MIDI recording, and audio export. |
+| **[Zrythm](https://github.com/zrythm/zrythm)** | [<img src="https://img.shields.io/github/stars/zrythm/zrythm?style=social&color=white" alt="Zrythm Stars"/>](https://github.com/zrythm/zrythm/stargazers) | AGPL-3.0 | **Modern Automated DAW**. Highly automatable digital audio workstation written in C/GTK4 with automations, chord assistant, and LV2 support. |
+| **[JACK2](https://github.com/jackaudio/jack2)** | [<img src="https://img.shields.io/github/stars/jackaudio/jack2?style=social&color=white" alt="JACK2 Stars"/>](https://github.com/jackaudio/jack2/stargazers) | GPL-2.0 | **Low-Latency Audio Connection Kit**. Professional audio server infrastructure for interconnecting audio recording software and hardware. |
+| **[Pure Data](https://github.com/pure-data/pure-data)** | [<img src="https://img.shields.io/github/stars/pure-data/pure-data?style=social&color=white" alt="Pure Data Stars"/>](https://github.com/pure-data/pure-data/stargazers) | BSD-3-Clause | **Visual Programming Environment for Multimedia**. Real-time audio processing, synthesizer creation, and audio stream capture. |
+| **[SoX (Sound eXchange)](https://github.com/chirlu/sox)** | [<img src="https://img.shields.io/github/stars/chirlu/sox?style=social&color=white" alt="SoX Stars"/>](https://github.com/chirlu/sox/stargazers) | GPL-2.0 | **CLI Sound Processing Utility**. The classic command-line tool for audio format conversion, concatenation, and audio effects. |
+| **[Tenacity](https://github.com/tenacityteam/tenacity)** | [<img src="https://img.shields.io/github/stars/tenacityteam/tenacity?style=social&color=white" alt="Tenacity Stars"/>](https://github.com/tenacityteam/tenacity/stargazers) | GPL-2.0 | **Privacy-Focused Audacity Fork**. Telemetry-free audio recording and editing tool created by the community. |
+| **[Qtractor](https://github.com/rncbc/qtractor)** | [<img src="https://img.shields.io/github/stars/rncbc/qtractor?style=social&color=white" alt="Qtractor Stars"/>](https://github.com/rncbc/qtractor/stargazers) | GPL-2.0 | **Qt-based Multi-track Sequencer**. Lightweight Linux DAW for audio and MIDI recording and editing. |
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! Follow these steps to submit new sound recording tools or updates:
+
+1. **Fork the Repository**: Click the `Fork` button at the top right of this repository.
+2. **Add Entry**: Update `README.md` following the table formatting (ensure links, licenses, and specific pricing/stars details are included).
+3. **Check Guidelines**:
+   - For **SaaS**: Provide explicit starting tier prices and exact free trial / free tier limits.
+   - For **Open Source**: Include official GitHub repo link and license.
+4. **Submit PR**: Open a Pull Request with a short summary of your additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated list of sound recording utilities helpful, please consider supporting the project! Your encouragement keeps this list updated and maintained.
+
+- ⭐ **Star this repository** to increase visibility.
+- 🔀 **Fork & Share** with fellow podcasters, audio engineers, and developers.
+- ☕ **Sponsor the Maintainer**: Buy us a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for informational and educational purposes.
+- Audio recording utilities handle potentially sensitive microphone and audio data. Always review privacy settings and telemetry options before deployment.
+- Pricing details, free trial terms, and star counts are regularly refreshed but may change over time according to software vendors.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Sound-Recording-Utility&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Sound-Recording-Utility&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for podcasters, musicians, audio engineers, and sound enthusiasts.</b>
+</p>

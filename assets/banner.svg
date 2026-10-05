@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Dark Gradient Background -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Accent Gradient for Text/Accents -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <!-- Glowing effect -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 52px;
+      fill: #ffffff;
+      letter-spacing: -1px;
+    }
+    .subtitle {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      fill: #cbd5e1;
+      letter-spacing: 0.5px;
+    }
+    .badge-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      fill: #a5b4fc;
+    }
+
+    /* SVG Animations */
+    @keyframes pulse-wave {
+      0% { transform: scaleY(0.3); opacity: 0.5; }
+      50% { transform: scaleY(1.1); opacity: 1; }
+      100% { transform: scaleY(0.3); opacity: 0.5; }
+    }
+    @keyframes float-particle {
+      0% { transform: translateY(0px) scale(1); opacity: 0.3; }
+      50% { transform: translateY(-15px) scale(1.2); opacity: 0.8; }
+      100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+    }
+
+    .bar {
+      transform-origin: bottom;
+      animation: pulse-wave 2.5s ease-in-out infinite;
+    }
+    .p1 { animation-delay: 0.1s; }
+    .p2 { animation-delay: 0.3s; }
+    .p3 { animation-delay: 0.5s; }
+    .p4 { animation-delay: 0.7s; }
+    .p5 { animation-delay: 0.9s; }
+    .p6 { animation-delay: 1.1s; }
+    .p7 { animation-delay: 1.3s; }
+
+    .particle {
+      animation: float-particle 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" />
+  <rect width="1196" height="356" x="2" y="2" rx="14" fill="none" stroke="#334155" stroke-width="2" />
+
+  <!-- Animated Sound Wave Visualizer in Background (Lower opacity so foreground pops) -->
+  <g transform="translate(100, 260)" opacity="0.35">
+    <rect class="bar p1" x="0" y="-120" width="12" height="120" rx="6" fill="#818cf8"/>
+    <rect class="bar p3" x="24" y="-180" width="12" height="180" rx="6" fill="#a855f7"/>
+    <rect class="bar p2" x="48" y="-90" width="12" height="90" rx="6" fill="#ec4899"/>
+    <rect class="bar p5" x="72" y="-210" width="12" height="210" rx="6" fill="#818cf8"/>
+    <rect class="bar p4" x="96" y="-140" width="12" height="140" rx="6" fill="#c084fc"/>
+    <rect class="bar p7" x="120" y="-70" width="12" height="70" rx="6" fill="#f472b6"/>
+    <rect class="bar p6" x="144" y="-160" width="12" height="160" rx="6" fill="#818cf8"/>
+  </g>
+
+  <g transform="translate(920, 260)" opacity="0.35">
+    <rect class="bar p7" x="0" y="-150" width="12" height="150" rx="6" fill="#f472b6"/>
+    <rect class="bar p5" x="24" y="-80" width="12" height="80" rx="6" fill="#818cf8"/>
+    <rect class="bar p2" x="48" y="-200" width="12" height="200" rx="6" fill="#c084fc"/>
+    <rect class="bar p6" x="72" y="-110" width="12" height="110" rx="6" fill="#a855f7"/>
+    <rect class="bar p1" x="96" y="-170" width="12" height="170" rx="6" fill="#ec4899"/>
+    <rect class="bar p4" x="120" y="-90" width="12" height="90" rx="6" fill="#818cf8"/>
+    <rect class="bar p3" x="144" y="-130" width="12" height="130" rx="6" fill="#c084fc"/>
+  </g>
+
+  <!-- Ambient Glowing Particles -->
+  <circle class="particle p1" cx="200" cy="80" r="4" fill="#818cf8" />
+  <circle class="particle p3" cx="1020" cy="100" r="5" fill="#f472b6" />
+  <circle class="particle p5" cx="850" cy="280" r="3" fill="#c084fc" />
+  <circle class="particle p2" cx="150" cy="290" r="6" fill="#38bdf8" />
+
+  <!-- Center Decorative Glow -->
+  <circle cx="600" cy="180" r="180" fill="url(#accent-grad)" opacity="0.12" filter="url(#glow)" />
+
+  <!-- Foreground Content: Subtitle / Pill Badges -->
+  <g transform="translate(600, 85)" text-anchor="middle">
+    <rect x="-160" y="-18" width="320" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+    <text y="4" class="badge-text" text-anchor="middle">🎙️ SOUND RECORDING ECOSYSTEM</text>
+  </g>
+
+  <!-- Foreground Main Title -->
+  <text x="600" y="165" class="title" text-anchor="middle" filter="url(#glow)">
+    Awesome Sound Recording Utility 🎧
+  </text>
+
+  <!-- Foreground Subtitle -->
+  <text x="600" y="215" class="subtitle" text-anchor="middle">
+    Curated SaaS Platforms, Open-Source DAWs &amp; Audio Processing Tools
+  </text>
+
+  <!-- Bottom Stats / Tags Line -->
+  <g transform="translate(600, 275)" text-anchor="middle">
+    <text font-family="system-ui, sans-serif" font-size="15" fill="#94a3b8" letter-spacing="1">
+      SOFTWARE • DAWs • VOICE MEMOS • AUDIO EDITORS • UTILITIES
+    </text>
+  </g>
+</svg>
